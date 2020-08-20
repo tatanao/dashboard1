@@ -1,0 +1,112 @@
+/*  
+	auteur : Naomie
+	version : 1.1
+	Date: 30/07/2020
+	Description : fichier css réalisant un tableau de bord d'un administrateur
+*/
+
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.sidebar{
+	flex-grow:0;
+	background-color: blue;
+	width: 15%;
+	height: 1250px;
+}
+
+.content-main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 85%;
+}
+.navbar{
+	width: 100%;
+}
+
+.main{
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.head-main{
+	display: flex;
+	background-image: linear-gradient(to left,rgba(255,255,255,0)60%,rgba(241,242,247,0.5));
+}
+
+.head-main .space{
+	flex-grow: 4;
+}
+
+.carte1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card{
+	width: 24%;
+}
+
+.card1{
+	flex-grow: 4
+	width: 65%;
+}
+
+.card2{
+	
+	width: 30%;
+}
+
+
+.carte2{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.cart-card1{
+	flex-grow: 4
+	width: 40%;
+}
+
+.cart-card2{
+	
+	width: 40%;
+}
+
+.carte3{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.carte-card1{
+	flex-grow: 4
+	width: 40%;
+}
+
+.carte-card2{
+	
+	width: 40%;
+}
+
+
+
+
+.footer{
+	text-align: center;
+	padding: 20px 10px 10px 10px ;
+	font-size: 20px;
+	font-family: "Open Source";
+}
+
